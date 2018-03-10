@@ -1,8 +1,9 @@
-FROM debian:stretch
+FROM debian:jessie-backports
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     bash \
+    docker.io \
     python-pip
 
 RUN pip install setuptools
