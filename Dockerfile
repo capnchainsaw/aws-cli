@@ -5,6 +5,7 @@ RUN apt-get update && \
     bash \
     docker.io \
     libltdl-dev \
+    jq \
     python-pip
 
 RUN pip install setuptools
