@@ -4,6 +4,7 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     bash \
     docker.io \
+    libltdl-dev \
     python-pip
 
 RUN pip install setuptools
