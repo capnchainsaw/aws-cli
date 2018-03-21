@@ -4,8 +4,9 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     bash \
     docker.io \
-    libltdl-dev \
     jq \
+    libltdl-dev \
+    mysql-client \
     python-pip
 
 RUN pip install setuptools
