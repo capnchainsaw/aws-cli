@@ -4,6 +4,7 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     bash \
     docker.io \
+    git \
     jq \
     libltdl-dev \
     mysql-client \
